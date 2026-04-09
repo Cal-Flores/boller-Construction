@@ -1,0 +1,358 @@
+<body>
+    <!doctype html>
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Boller Contracting</title>
+            <link rel="stylesheet" href="index.css" />
+        </head>
+
+        <body>
+            <!-- Header -->
+            <header class="site-header">
+                <div class="container header-inner">
+                    <a class="brand" href="#home" aria-label="Boller Contracting home">
+                        <img class="brand-logo" src="assets/logo.webp" alt="Boller Contracting logo" />
+                        <div class="brand-text">
+                            <span class="brand-name">BOLLER CONTRACTING</span>
+                            <span class="brand-tagline">Quality craftsmanship • Built to last</span>
+                        </div>
+                    </a>
+
+                    <nav class="nav" aria-label="Primary navigation">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link nav-cta" href="#contact">Get a Quote</a>
+                    </nav>
+
+                    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Main -->
+            <main id="home">
+                <!-- Hero -->
+                <section class="hero">
+                    <div class="container hero-grid">
+                        <div class="hero-copy">
+                            <p class="eyebrow">Residential • Commercial • Remodeling</p>
+                            <h1>Reliable work. Clean finishes. Straightforward timelines.</h1>
+                            <p class="lead">
+                                From framing to finish, we deliver dependable results and clear communication every
+                                step of
+                                the way.
+                            </p>
+
+                            <div class="hero-actions">
+                                <a class="btn btn-primary" href="#contact">Request a Quote</a>
+                                <a class="btn btn-ghost" href="#projects">View Our Work</a>
+                            </div>
+
+                            <div class="hero-badges" aria-label="Highlights">
+                                <div class="badge">
+                                    <span class="badge-title">Insured</span>
+                                    <span class="badge-sub">Work with confidence</span>
+                                </div>
+                                <div class="badge">
+                                    <span class="badge-title">On-time</span>
+                                    <span class="badge-sub">Schedules that stick</span>
+                                </div>
+                                <div class="badge">
+                                    <span class="badge-title">Quality</span>
+                                    <span class="badge-sub">Pride in every detail</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-card" aria-label="Featured project photo">
+                            <img src="assets/work1.jpeg" alt="Construction project photo" />
+                            <div class="hero-card-overlay">
+                                <p class="hero-card-title">Recent Work</p>
+                                <p class="hero-card-sub">Craftsmanship you can see.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects -->
+                <section id="projects" class="section">
+                    <div class="container">
+                        <div class="section-head">
+                            <h2>Our Work</h2>
+                            <p>Here are a few recent projects.</p>
+                        </div>
+
+                        <div class="gallery">
+                            <figure class="gallery-item">
+                                <img src="assets/work1.jpeg" alt="Project photo 1" loading="lazy" />
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="assets/work2.jpeg" alt="Project photo 2" loading="lazy" />
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="assets/work3.jpeg" alt="Project photo 3" loading="lazy" />
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="assets/work4.jpeg" alt="Project photo 4" loading="lazy" />
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="assets/work5.jpeg" alt="Project photo 5" loading="lazy" />
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="assets/work6.jpeg" alt="Project photo 6" loading="lazy" />
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About -->
+                <section id="about" class="section section-alt">
+                    <div class="container about-grid">
+                        <div>
+                            <h2>About Us</h2>
+                            <p>
+                                Boller Contracting provides professional construction services with a focus on
+                                quality,
+                                safety,
+                                and clear communication. We treat every job like it’s our own home — clean,
+                                organized, and
+                                done right.
+                            </p>
+
+                            <ul class="checklist">
+                                <li>Clear estimates and expectations</li>
+                                <li>Quality materials and workmanship</li>
+                                <li>Respectful, jobsite-clean crew</li>
+                                <li>Consistent updates from start to finish</li>
+                            </ul>
+                        </div>
+
+                        <div class="about-card">
+                            <h3>Services</h3>
+                            <div class="pill-row">
+                                <span class="pill">Remodels</span>
+                                <span class="pill">Decks</span>
+                                <span class="pill">Framing</span>
+                                <span class="pill">Siding</span>
+                                <span class="pill">Flooring</span>
+                                <span class="pill">General Contracting</span>
+                            </div>
+
+                            <div class="divider"></div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact -->
+                <section id="contact" class="section">
+                    <div class="container contact-grid">
+                        <div>
+                            <div class="section-head">
+                                <h2>Contact</h2>
+                                <p>Tell us a bit about the project and we’ll get back to you.</p>
+                            </div>
+
+                            <form class="form" action="https://formspree.io/f/abcdwxyz" method="POST">
+                                <!-- Formspree spam honeypot (bots fill this, humans won't) -->
+                                <div class="hp-field" aria-hidden="true">
+                                    <label>Leave this field empty
+                                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                                    </label>
+                                </div>
+
+                                <!-- extra “time trap” (bots submit instantly) -->
+                                <input type="hidden" name="_ts" id="formTs" value="" />
+
+                                <!-- nice email subject -->
+                                <input type="hidden" name="_subject" value="New Quote Request — Boller Contracting" />
+
+                                <div class="form-row">
+                                    <label>
+                                        Name
+                                        <input type="text" name="name" placeholder="Your name" required />
+                                    </label>
+
+                                    <label>
+                                        Phone
+                                        <input type="tel" name="phone" placeholder="(555) 555-5555" />
+                                    </label>
+                                </div>
+
+                                <div class="form-row">
+                                    <label>
+                                        Email
+                                        <input type="email" name="email" placeholder="you@email.com" required />
+                                    </label>
+
+                                    <label>
+                                        Project Type
+                                        <select name="projectType">
+                                            <option value="">Select one</option>
+                                            <option>Remodel</option>
+                                            <option>Deck</option>
+                                            <option>Framing</option>
+                                            <option>Siding</option>
+                                            <option>Flooring</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <label>
+                                    Message
+                                    <textarea name="message" rows="5"
+                                        placeholder="What are you looking to build or improve?" required></textarea>
+                                </label>
+
+                                <!-- File uploads (photos) -->
+                                <label>
+                                    Project Photos (optional)
+                                    <input type="file" name="attachments" accept="image/*" multiple />
+                                    <small class="muted small">Add a few photos to help us estimate faster.</small>
+                                </label>
+
+                                <button class="btn btn-primary" id="submitBtn" type="submit">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-spinner" aria-hidden="true"></span>
+                                </button>
+
+                                <p class="form-note" id="formNote">
+                                    We’ll reply as soon as possible.
+                                </p>
+                            </form>
+
+                            <!-- Success panel (hidden until sent) -->
+                            <div class="form-success" id="formSuccess" hidden>
+                                <div class="success-check" aria-hidden="true"></div>
+                                <h3>Message sent!</h3>
+                                <p class="muted">We got your request. We’ll reach out soon.</p>
+                                <button class="btn btn-ghost" id="sendAnother" type="button">Send another
+                                    message</button>
+                            </div>
+
+                        </div>
+
+                        <aside class="contact-card">
+                            <h3>Quick Info</h3>
+
+                            <div class="contact-lines">
+                                <p><strong>Phone:</strong> <a href="tel:+15555555555">(555) 555-5555</a></p>
+                                <p><strong>Email:</strong> <a
+                                        href="mailto:hello@bollercontracting.com">hello@bollercontracting.com</a>
+                                </p>
+                                <p><strong>Service Area:</strong> Your City + surrounding areas</p>
+                            </div>
+
+                            <div class="divider"></div>
+
+
+                        </aside>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="container footer-inner">
+                    <p>© <span id="year"></span> Boller Contracting. All rights reserved.</p>
+                    <p class="muted">Built with care.</p>
+                </div>
+            </footer>
+
+            <script>
+                // ✅ Put your Formspree endpoint here:
+                const FORM_ENDPOINT = "https://formspree.io/f/abcdwxyz"; // <-- replace
+
+                const form = document.getElementById("contactForm");
+                const success = document.getElementById("formSuccess");
+                const sendAnother = document.getElementById("sendAnother");
+                const submitBtn = document.getElementById("submitBtn");
+                const btnText = submitBtn.querySelector(".btn-text");
+                const spinner = submitBtn.querySelector(".btn-spinner");
+
+                // time trap start
+                const ts = document.getElementById("formTs");
+                const startTime = Date.now();
+                ts.value = String(startTime);
+
+                function setLoading(isLoading) {
+                    submitBtn.disabled = isLoading;
+                    submitBtn.classList.toggle("is-loading", isLoading);
+                    btnText.textContent = isLoading ? "Sending..." : "Send Message";
+                }
+
+                function showSuccess() {
+                    form.hidden = true;
+                    success.hidden = false;
+                    success.classList.remove("pop");
+                    // retrigger animation
+                    void success.offsetWidth;
+                    success.classList.add("pop");
+                }
+
+                function resetForm() {
+                    form.reset();
+                    form.hidden = false;
+                    success.hidden = true;
+                    setLoading(false);
+                    // reset time trap
+                    ts.value = String(Date.now());
+                }
+
+                sendAnother.addEventListener("click", resetForm);
+
+                form.addEventListener("submit", async (e) => {
+                    e.preventDefault();
+
+                    // Extra spam check: if submitted too fast, ignore
+                    const elapsedMs = Date.now() - Number(ts.value || startTime);
+                    if (elapsedMs < 2000) {
+                        // silently fail (bots often submit instantly)
+                        return;
+                    }
+
+                    try {
+                        setLoading(true);
+
+                        const formData = new FormData(form);
+
+                        const res = await fetch(FORM_ENDPOINT, {
+                            method: "POST",
+                            headers: {
+                                "Accept": "application/json",
+                            },
+                            body: formData,
+                        });
+
+                        if (!res.ok) {
+                            // try to read error details (optional)
+                            let data;
+                            try { data = await res.json(); } catch { }
+                            console.error("Formspree error:", data || res.statusText);
+                            setLoading(false);
+                            // optional: show inline error message instead of alert
+                            document.getElementById("formNote").textContent =
+                                "Something went wrong. Please try again or email us directly.";
+                            return;
+                        }
+
+                        showSuccess();
+                        setLoading(false);
+                    } catch (err) {
+                        console.error(err);
+                        setLoading(false);
+                        document.getElementById("formNote").textContent =
+                            "Network error. Please try again.";
+                    }
+                });
+            </script>
+
+        </body>
+
+    </html>
